@@ -1,0 +1,41 @@
+{
+  "entities": {
+    "file": {
+      "title": "File",
+      "description": "A collaborative file in the workspace",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "content": { "type": "string" },
+        "language": { "type": "string" },
+        "lastUpdated": { "type": "string", "format": "date-time" },
+        "updatedBy": { "type": "string" }
+      },
+      "required": ["id", "name", "content", "language", "lastUpdated", "updatedBy"]
+    },
+    "user": {
+      "title": "User",
+      "description": "User profile data",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "lastSeen": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "email", "lastSeen"]
+    }
+  },
+  "firestore": {
+    "/files/{fileId}": {
+      "schema": "file",
+      "description": "Shared workspace files"
+    },
+    "/users/{userId}": {
+      "schema": "user",
+      "description": "Public user profiles"
+    }
+  }
+}
