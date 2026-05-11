@@ -1,6 +1,6 @@
 {
   "name": "Vertex Code Keeper",
-  "description": "A sleek, mobile-optimized professional IDE for high-performance coding. Featuring Termux-style controls, multi-tab support, and local storage persistence.",
+  "description": "A professional, mobile-optimized IDE with Firebase cloud sync, real-time collaboration, Termux-style controls, and a built-in 'RUN' environment for live previews.",
   "requestFramePermissions": [],
   "majorCapabilities": []
 }
