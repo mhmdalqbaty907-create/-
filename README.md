@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🚀 Vertex Code Keeper
 
-# Run and deploy your AI Studio app
+**Vertex Code Keeper** هو بيئة تطوير متكاملة (IDE) متطورة، مصممة خصيصاً للمبرمجين الذين يعملون من الهواتف الذكية. يتميز بتصميم مستوحى من واجهات cyberpunk مع دعم كامل للمزامنة السحابية.
 
-This contains everything you need to run your app locally.
+## ✨ المميزات الرئيسية
+- **🟢 واجهة خضراء (Matrix Style):** تصميم مريح للعين وتقني بامتياز.
+- **☁️ Cloud Sync:** حفظ الملفات تلقائياً باستخدام Firebase.
+- **⚡ Live Preview (RUN):** زر تشغيل مباشر لمشاهدة نتائج الكود (HTML/JS) داخل التطبيق.
+- **⌨️ Termux Extra Keys:** أزرار إضافية للتحكم بالبرمجة (CTRL, ALT, ESC) لسهولة الكتابة من الهاتف.
+- **📂 Multi-tab System:** فتح والتبادل بين عدة ملفات في وقت واحد.
 
-View your app in AI Studio: https://ai.studio/apps/dcfd579d-2883-4bea-978c-ba253eda53a9
+## 🛠️ كيف تستخدمه؟
+1. قم بتسجيل الدخول بحساب Google.
+2. ابدأ في كتابة كود HTML أو JS.
+3. اضغط على زر **RUN** في القائمة العلوية لمشاهدة النتيجة.
+4. جميع تعديلاتك تُحفظ سحابياً وتظهر على أي جهاز آخر تسجل الدخول منه.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+تم التطوير بواسطة **CoderStar** باستخدام الذكاء الاصطناعي في بيئة Google AI Studio.
